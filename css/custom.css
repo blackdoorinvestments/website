@@ -1,0 +1,183 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    color: #000;
+    margin: 0 0 30px 0;
+}
+
+.form-control {
+    border: 2px solid #A7A9AC;
+    border-radius: 0;
+    color: #000;
+}
+
+.btn-red {
+    color: #FFF !important;
+    background-color: #F36E48;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+}
+
+.btn-red:hover {
+    color: #000 !important;
+}
+
+.btn-blue {
+    color: #FFF !important;
+    background-color: #1E2632;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+}
+
+.btn-blue:hover {
+    color: #000 !important;
+}
+
+.btn-yellow {
+    color: #323B4A;
+    background-color: #EDC480;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+}
+
+.btn-yellow:hover {
+    color: #FFF;
+}
+
+header {
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+}
+
+.header-tagline {
+    color: #FFF;
+    padding: 30vh 0 0 0;
+    font-style: italic;
+
+}
+
+.top-nav {
+    padding: 20px 0 0 0;
+    /*background-color: rgba(255, 255, 255, 0.6);*/
+    height: 100px;
+}
+
+.top-nav a {
+    color: #000;
+}
+
+.top-nav li {
+    padding-left: 20px;
+}
+
+.nav-logo {
+    height: 70px;
+}
+
+section {
+    padding: 50px 0 50px 0;
+}
+
+
+#request {
+    text-align: center;
+}
+
+#features {
+    color: #FFF;
+    line-height: 4;
+    background-color: #A63C23;
+    font-style: italic;
+}
+
+.feature-icon {
+    padding-right: 10px;
+    height: 1.9em;
+}
+
+#how-it-works {
+    color: #323B4A;
+    text-align: center;
+}
+
+.how-it-works-icon {
+    margin: 0 auto;
+    height: 100px;
+    padding: 0 0 30px 0;
+}
+
+.how-it-works-lead {
+    font-weight: 700;
+
+}
+
+#banner {
+    background-color: #D4332F;
+}
+
+.banner-header {
+    font-size: 1.8em;
+    text-align: center;
+    color: #FFF;
+    font-style: italic;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+#contact-us {
+    color: #323B4A;
+}
+
+#contact-us a {
+    color: #000;
+}
+
+.contact-icon {
+    vertical-align: bottom;
+    padding-right: 15px;
+    height: 2em;
+}
+
+.submitted-logo {
+    margin: 100px 0 50px 0;
+    height: 100px;
+}
+
+footer {
+    padding: 40px 0 60px 0;
+    background-color: #000;
+}
+
+
+@media only screen and (min-width : 768px) {
+    #contact-us {
+        text-align: center;
+    }
+    .request-form {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .top-nav-nav { 
+        display: none; 
+    }
+    .how-it-works-block {
+        padding-bottom: 30px;
+    }
+    .contact-us-block {
+        padding-bottom: 15px;
+    }
+    #features {
+        padding-left: 25vw;
+    }
+}
